@@ -28,7 +28,10 @@ AV BYPASS :
 </div>
 
 
-Used languages:
-C++ - NodeJs - C#
+## Used languages:
+
+1. C++
+2. NodeJs
+3. C#
 
 
