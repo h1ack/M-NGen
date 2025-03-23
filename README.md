@@ -20,3 +20,4 @@ The interesting part is that the embedding method I used is not the usual Proces
 
 ## Video :
 
+https://github.com/user-attachments/assets/51f80947-a945-41e7-83d0-835b0fa38754
