@@ -19,3 +19,5 @@ The interesting part is that the embedding method I used is not the usual Proces
 </div>
 
 ## video : 
+
+(./video/0323.mp4)
