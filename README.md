@@ -20,5 +20,5 @@ The interesting part is that the embedding method I used is not the usual Proces
 
 ## Video :
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
+[[![Watch the video]](https://www.youtube.com/watch?v=WqvkugO9I7Y)
+]
