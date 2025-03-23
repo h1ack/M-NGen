@@ -21,6 +21,6 @@ The interesting part is that the embedding method I used is not the usual Proces
 ## video : 
 
 <video width="760" controls>
-  <source src="./video/0323.mp4" type="video/mp4">
+  <source src="/video/0323.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
