@@ -20,5 +20,4 @@ The interesting part is that the embedding method I used is not the usual Proces
 
 ## Video :
 
-[[![Watch the video]](https://www.youtube.com/watch?v=WqvkugO9I7Y)
-]
+https://files.catbox.moe/6stw6g.mp4
