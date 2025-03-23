@@ -18,9 +18,7 @@ The interesting part is that the embedding method I used is not the usual Proces
   <img src="https://files.catbox.moe/3yceau.jpg" width="760px">
 </div>
 
-## video : 
+## Video :
 
-<video width="760" controls>
-  <source src="/video/0323.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
