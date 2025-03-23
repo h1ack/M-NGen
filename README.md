@@ -21,3 +21,8 @@ The interesting part is that the embedding method I used is not the usual Proces
 ## Video :
 
 https://github.com/user-attachments/assets/51f80947-a945-41e7-83d0-835b0fa38754
+
+AV BYPASS :
+<div align="center">
+  <img src="https://files.catbox.moe/diwxzf.jpg" width="760px">
+</div>
