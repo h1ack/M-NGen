@@ -15,7 +15,7 @@ The interesting part is that the embedding method I used is not the usual Proces
 > The method is still private, I can't share it publicly!
 
 <div align="center">
-  <img src="https://files.catbox.moe/3yceau.jpg" width="560px">
+  <img src="https://files.catbox.moe/3yceau.jpg" width="760px">
 </div>
 
 ## video : 
