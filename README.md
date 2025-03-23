@@ -26,3 +26,9 @@ AV BYPASS :
 <div align="center">
   <img src="https://files.catbox.moe/diwxzf.jpg" width="760px">
 </div>
+
+
+Used languages:
+C++ - NodeJs - C#
+
+
