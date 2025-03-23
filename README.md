@@ -14,5 +14,8 @@ The interesting part is that the embedding method I used is not the usual Proces
 > [!WARNING]  
 > The method is still private, I can't share it publicly!
 
+<div align="center">
+  <img src="https://files.catbox.moe/3yceau.jpg" width="560px">
+</div>
 
 ## video : 
