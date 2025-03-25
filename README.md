@@ -27,6 +27,9 @@ AV BYPASS :
   <img src="https://files.catbox.moe/diwxzf.jpg" width="760px">
 </div>
 
+### Discord Get Hacked Hehehe
+https://github.com/user-attachments/assets/a97de13d-781f-4c77-9763-14d198786eaf
+
 
 ## Used languages:
 
