@@ -45,8 +45,8 @@ import subprocess
 from flask import Flask, jsonify
 
 f = Flask(__name__)
-@f.route('/HDL/X/<t>', methods=['GET'])
 
+@f.route('/HDL/X/<t>', methods=['GET'])
 def r(t):
     return h(t)
 
