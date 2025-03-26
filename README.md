@@ -30,13 +30,6 @@ AV BYPASS :
 ### Discord Get Hacked Hehehe
 https://github.com/user-attachments/assets/a97de13d-781f-4c77-9763-14d198786eaf
 
-
-## Used languages:
-
-1. C++
-2. NodeJs
-3. C#
-
 ## Part Of Code : (It's Note All of The code)
 
 ```python
